@@ -33,54 +33,76 @@ main {
     border: 1px solid transparent;
     color: white;
 }
-.part1 ul li{
 
+.part1 ul li {
+
+    font-size: larger;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     list-style-type: none;
     font-weight: bold;
+
 }
-.part1 .options{
+
+.part1 .options {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.part1 .heading{
+
+.part1 .heading {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:0 1.8rem 0 1.8rem;
+    padding: 0 1.8rem 0 1.8rem;
     margin-top: -10px;
 }
-.part1 .heading img{
+
+.part1 .heading img {
 
     height: 100px;
 }
 
-.part1 .heading h1{
-    font-family: "Protest Strike",sans-serif;
+.part1 .heading h1 {
+    font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
     text-align: center;
 }
 
+.part1 .options .features {
 
-.part1 .options .features:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px;
+    padding: 10px;
+}
+
+.part1 .options .features i {
+
+    margin-right: 10px;
+}
+
+.part1 .options .features:hover {
 
     background-color: rgb(49, 49, 43);
     border-radius: 0.8rem;
-    transition-delay: 0.005s;
+    transition-delay: 0.05s;
     transition-duration: 0.8s;
 }
-.part1 .options a{
-    color:white;
+
+.part1 .options a {
+    color: white;
     text-decoration: none;
     text-align: center;
-    margin: 1.5rem;
+    text-align: center;
     font-size: larger;
 }
+
 .part2 {
     background-color: red;
     height: 100px;
