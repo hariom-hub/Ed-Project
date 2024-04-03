@@ -26,10 +26,8 @@ main {
     justify-content: space-around;
     background-color: rgb(14, 9, 9);
     border-radius: 19px;
-    margin: 10px;
-    padding: 5px;
-    height: 95vh;
-    width: 27vw;
+    height: 97vh;
+    width: 35vw;
     border: 1px solid transparent;
     color: white;
 }
@@ -77,6 +75,7 @@ main {
     justify-content: center;
     flex-direction: column;
     padding: 10px;
+    margin: 1rem;
 }
 
 .part1 .options .features i {
@@ -102,12 +101,33 @@ main {
 
 .part2 {
 
-    height: 100px;
-    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+
 }
 
-.part3 {
-    background-color: black;
-    height: 100px;
-    width: 50px;
+.part2 .right-part {
+    margin-top: 15px;
+}
+
+.part2 .left-part {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-part div {
+
+    margin: 1px 7px;
+}
+
+.left-part .icon:hover {
+    opacity: 0.8;
+    transition-delay: 0.15s;
 }

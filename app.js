@@ -1,0 +1,1 @@
+let lists = document.querySelectorAll(".list")
