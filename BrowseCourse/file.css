@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+
+*{
+
+    background:linear-gradient(150deg,green);
+}
+.MultipleCourse ul li{
+
+    list-style: none;
+    color: black;
+}
+
+main{
+    display: flex;
+}
